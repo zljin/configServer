@@ -27,6 +27,8 @@ spring:
   jpa:
     database: MySQL
     show-sql: true
+  rabbitmq:
+    host: 127.0.0.1
 
 ## 开启所有actuator-endpoint
 management:

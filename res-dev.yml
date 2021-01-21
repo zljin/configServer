@@ -43,4 +43,4 @@ management:
     
 ## 自定义配置，用于验证bus总线和@RefreshScope注解是否失效
 sms:
-  ip:0.0.0.0
+  ip: 0.0.0.0

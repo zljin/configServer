@@ -33,6 +33,9 @@ management:
   endpoint:
     health:
       show-details: always
+    web: # 暴露触发消息总线的地址
+      exposure:
+        include: bus-refresh
   endpoints:
     web:
       exposure:
